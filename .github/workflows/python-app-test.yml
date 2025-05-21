@@ -29,5 +29,4 @@ jobs:
         pip install -r requirements.txt
       # Step 4: run unit test
     - name: Test with pytest
-      run: |
-        pytest
+      run: pytest
